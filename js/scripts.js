@@ -1,42 +1,42 @@
 $(document).ready(function() {
 
   $("#javascript").click(function() {
-    $("#javascript-def").toggle();
+    $("#javascript-def").slideToggle();
   });
 
   $("#operators").click(function() {
-    $("#operators-def").toggle();
+    $("#operators-def").slideToggle();
   });
 
   $("#conventions").click(function() {
-    $("#conventions-def").toggle();
+    $("#conventions-def").slideToggle();
   });
 
   $("#functions").click(function() {
-    $("#functions-def").toggle();
+    $("#functions-def").slideToggle();
   });
 
   $("#methods").click(function() {
-    $("#methods-def").toggle();
+    $("#methods-def").slideToggle();
   });
 
   $("#booleans").click(function() {
-    $("#booleans-def").toggle();
+    $("#booleans-def").slideToggle();
   });
 
   $("#undefined").click(function() {
-    $("#undefined-def").toggle();
+    $("#undefined-def").slideToggle();
   });
 
   $("#nan").click(function() {
-    $("#nan-def").toggle();
+    $("#nan-def").slideToggle();
   });
 
   $("#escape").click(function() {
-    $("#escape-def").toggle();
+    $("#escape-def").slideToggle();
   });
   $("#alert").click(function() {
-    $("#alert-def").toggle();
+    $("#alert-def").slideToggle();
   });
 
 });
